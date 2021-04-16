@@ -1,0 +1,232 @@
+/*
+aikidojo-kiel.de
+Styles für horizontales und vertikales Menü für Desktop und Tablet
+RS 09/2017
+*/
+@media screen and (min-width: 764px)
+{
+   .mbutton {display:none;}
+   #menuItems.menuHidden { 
+    display:block;
+    position: relative;
+   font-family: 'Montserrat',sans-serif;
+    }
+
+   #menu {
+      clear:both;
+      float:left;
+      margin:0px;
+      margin-bottom:20px;
+      padding:0;
+      border-bottom:1px solid #ddd;
+      border-top:1px solid #ddd;
+      width:100%;
+      font-family:'Montserrat',sans-serif;
+      font-size:1.6rem;
+      z-index:1000;
+      position:relative;
+   }
+
+   #menu a{
+      font-family:'Montserrat',sans-serif;
+   }
+
+   #menu>ul {
+      margin:0;
+      padding:0;
+      list-style:none;
+      float:right;
+      position:relative;
+      right:50%;
+      letter-spacing: 0.09rem;
+   }
+
+   #menu>ul>li {
+      margin-bottom:0px;
+      padding-right:5px;
+      padding-left:5px;
+      float:left;
+      position:relative;
+      left:50%;
+      top:0px;
+   }
+
+   #menu>ul>li>a {
+      display:block;
+      margin:0;
+      padding:.6em .5em .4em;
+      background:#fff;
+      text-decoration:none;
+      color:#444;
+      font-weight:normal;
+   }
+
+   #menu>ul>li>a.active { color:#BF1E2E; }
+   #menu>ul>li>a:hover { background:#eee; }
+
+   #menu>ul>li>ul { display:none; }
+
+   #menu>ul>li>ul { 
+      margin:0;
+      padding:0;
+      list-style:none;
+
+      position:absolute;
+      top:3.2em;
+      left:0.26em;
+      right:auto;
+      width:200px;
+      border:0px solid #000;
+      box-shadow: 4px 2px 5px #ccc;
+      letter-spacing: normal;
+      font-size:1.3rem;
+      background-color: #fff;
+   }     
+
+   #menu>ul>li>ul>li {
+      left:auto;
+      margin:0;
+      clear:left;
+      width:100%;
+      display:block;
+      padding-top:7px;
+      padding-bottom:7px;
+      border-top: 1px solid #ddd;
+   }
+
+   #menu>ul>li>ul>li:hover {
+       background-color: #BF1E2E;
+      color: white;
+   }
+
+   #menu>ul>li>ul>li>a{
+      display:block;
+      box-sizing: border-box;
+      text-decoration:none;
+      background-color: #BF1E2E;
+      color: white;
+      padding-left:0.5em;
+   }
+
+   #menu>ul>li>ul>li>a.active{ color:#BF1E2E; }
+   #menu ul>li:hover>ul{ display:block; }
+}
+
+@media screen and (max-width: 763px)
+{
+   .mbutton {
+      display:block;
+      width:100%;
+      text-align:left;
+      padding: 6px 0 6px 0;
+      font-size:1.4em;
+      color: #444;
+      /*background-color: #1D1F20;*/
+ 
+   }
+
+   .mbutton>a {
+      text-decoration: none;
+   }
+
+   #menuItems.menuVisible { 
+      display:block; 
+   }
+   #menuItems.menuHidden {
+       display:none; 
+      }
+
+   .mbutton, #menu a {
+      /*color: #ddd;*/
+      color: #444;
+      font-family:'Montserrat',sans-serif;
+   }
+
+   #menu {
+      /*background-color: #1D1F20;*/
+      color: #ddd;
+      padding-right:30px;
+      border-bottom:1px solid #ddd;
+      border-top:1px solid #ddd;
+      margin-bottom:20px;
+   }
+
+   #menu ul>li>ul{ 
+      display:block; 
+   }
+
+   #menu>ul 
+   {
+      clear:both;
+      letter-spacing: 0.3rem;
+      font-weight:bold;
+      /*border-top:1px solid #ddd;*/
+      padding-top:10px;
+   }
+
+   #menu>ul>li
+   {
+      display:block;
+      width:100%;
+   }
+
+   #menu>ul>li>a:hover
+   {
+      background-color: #BF1E2E;
+      color: white;
+   }
+
+   #menu>ul>li>ul { 
+
+      margin:0;
+      padding:0;
+      padding-left: 20px;
+      list-style:none;
+      letter-spacing: normal;
+      font-size:1.3rem;
+   }     
+
+   #menu>ul>li>ul>li {
+
+      margin:0;
+      clear:left;
+      width:100%;
+      display:block;
+      padding-top:7px;
+      padding-bottom:7px;
+   }
+   #menu>ul>li>ul>li:hover {
+      background-color: #BF1E2E;
+      color: white;
+   }
+
+   #menu a:hover{
+      display:block;
+      background-color: #BF1E2E;
+      color: white;
+   }
+
+   #menu a>span {display:none;}
+}
+
+@media screen and (min-width: 700px){
+   #menu>ul>li>a:hover{
+      background-color: #BF1E2E;
+      color: white;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
