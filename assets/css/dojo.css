@@ -274,9 +274,8 @@ margin-bottom:30px;
 
 
 .aikishuren-header {
-    width: 150px;
-    height: 250px;
-    border: 3px solid red;
+    width: 50px;
+    height: 100px;
     border-radius: 10%;
 }
 
@@ -296,7 +295,6 @@ margin-bottom:30px;
 
 .header1{
     margin-top: 70px;
-
 }
 
 .aikishuren-draw-train {
@@ -320,4 +318,9 @@ margin-bottom:30px;
     margin-bottom: 20px;
     overflow-x: hidden;
     border:2px solid red;
+}
+
+.textheader{
+    display: flex;
+    align-items: center;
 }
