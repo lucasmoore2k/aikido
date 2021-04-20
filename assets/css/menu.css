@@ -9,7 +9,7 @@ RS 09/2017
    #menuItems.menuHidden { 
     display:block;
     position: relative;
-   font-family: 'Montserrat',sans-serif;
+   font-family: 'Trebuchet MS', Arial, sans-serif;
     }
 
    #menu {
@@ -21,14 +21,14 @@ RS 09/2017
       border-bottom:1px solid #ddd;
       border-top:1px solid #ddd;
       width:100%;
-      font-family:'Montserrat',sans-serif;
+      font-family:'Trebuchet MS', Arial, sans-serif;
       font-size:1.6rem;
       z-index:1000;
       position:relative;
    }
 
    #menu a{
-      font-family:'Montserrat',sans-serif;
+      font-family:'Trebuchet MS', Arial, sans-serif;
    }
 
    #menu>ul {
@@ -139,7 +139,7 @@ RS 09/2017
    .mbutton, #menu a {
       /*color: #ddd;*/
       color: #444;
-      font-family:'Montserrat',sans-serif;
+      font-family:'Trebuchet MS', Arial, sans-serif;
    }
 
    #menu {
